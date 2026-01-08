@@ -1,13 +1,16 @@
 # JARScanner
-This application locates javaw instances in prefetch and determines loaded mods via index. 
+Run the build as an administrator and give the path to your mods folder, scan takes may wary in time depending on size.
 
 Files are hashed and checked against modrinth API and then investigated if unknown. Detections include:
-- String searching
-- Determining packaging
-- Obfuscated classes
-- Manifests
-- File modifications
-- Hardlinks
+- Hash Database
+- Cheat String Patterns
+- Known Malicious Packages
+- Package Structure Analysis
+- Class File Analysis
+- Network/API Detection
+- Native Code Detection
+- Bytecode Manipulation
+- Obfuscation detections (in progress)
 
 Run the application as an admin, or import it through powershell for less hassle. 
 
